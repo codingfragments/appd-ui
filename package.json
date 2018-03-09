@@ -1,0 +1,11 @@
+{
+	
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "fullBootstrap":"find . -name \"yarn.lock\" -exec rm \"{}\" \";\" && rm -rf node_modules && rm -rf */*/node_modules/* && lerna bootstrap"
+  },
+  "private": true,
+	"devDependencies": {
+		"lerna": "^2.9.0"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "packages/*",
+    "features/*",
+    "ui/*"
+  ],
+  "npmClient": "yarn",
+  "version": "0.0.0",
+  "lerna": "2.9.0"
+}

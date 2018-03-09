@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../../node_modules/@codingfragments/appdui-theme-main/dist/styles.bundle.css";
+
+// Register Boostrap variables
+@import "../../node_modules/@codingfragments/appdui-theme-main/src/scss/bootstrap-variables";
+// Register core variables
+@import "../../node_modules/@codingfragments/appdui-theme-main/src/scss/core-variables";
+
+
+// Custom styles
+@import "custom";
